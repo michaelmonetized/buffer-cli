@@ -1,0 +1,56 @@
+{
+  "name": "buffer-cli",
+  "version": "0.1.0",
+  "description": "A powerful CLI for scheduling social media posts through Buffer",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "buffer-cli": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "test": "bun test",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "buffer",
+    "social-media",
+    "cli",
+    "twitter",
+    "facebook",
+    "linkedin",
+    "instagram",
+    "pinterest",
+    "scheduler",
+    "automation"
+  ],
+  "author": "Michael Hurley <michael@hurleyus.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmonetized/buffer-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelmonetized/buffer-cli/issues"
+  },
+  "homepage": "https://github.com/michaelmonetized/buffer-cli#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.23",
+    "open": "^10.1.0",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.4.5"
+  }
+}
