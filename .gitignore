@@ -33,3 +33,4 @@ bun.lockb
 
 # Local config (never commit user credentials!)
 .buffer-cli/
+.fallow/

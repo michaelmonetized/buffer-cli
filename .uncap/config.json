@@ -1,0 +1,19 @@
+{
+  "repoId": "r17czn9gn29tn3k7y1sxaaxb0987n5q4",
+  "owner": "uncap_user",
+  "name": "buffer-cli",
+  "originType": "native",
+  "legacy": {
+    "hasGitHub": false,
+    "hasGit": true
+  },
+  "defaults": {
+    "file": "public",
+    "fragment": "public",
+    "issue": "public",
+    "pullRequest": "public",
+    "branch": "public",
+    "comment": "public"
+  },
+  "headSha": ""
+}
